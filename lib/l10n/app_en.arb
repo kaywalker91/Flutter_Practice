@@ -1,0 +1,59 @@
+{
+  "@@locale": "en",
+  "appTitle": "Flutter Demo",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "homePageTitle": "Flutter Demo Home Page",
+  "@homePageTitle": {
+    "description": "Home page title"
+  },
+  "counterDescription": "You have pushed the button this many times:",
+  "@counterDescription": {
+    "description": "Counter description text"
+  },
+  "incrementTooltip": "Increment",
+  "@incrementTooltip": {
+    "description": "Increment button tooltip"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings menu"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme setting"
+  },
+  "lightMode": "Light Mode",
+  "@lightMode": {
+    "description": "Light mode"
+  },
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Dark mode"
+  },
+  "systemMode": "System Default",
+  "@systemMode": {
+    "description": "Follow system settings"
+  },
+  "korean": "한국어",
+  "@korean": {
+    "description": "Korean language"
+  },
+  "english": "English",
+  "@english": {
+    "description": "English language"
+  },
+  "japanese": "日本語",
+  "@japanese": {
+    "description": "Japanese language"
+  },
+  "welcomeMessage": "Welcome to Flutter App!",
+  "@welcomeMessage": {
+    "description": "Welcome message"
+  }
+}

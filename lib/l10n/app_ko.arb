@@ -1,0 +1,59 @@
+{
+  "@@locale": "ko",
+  "appTitle": "Flutter 데모",
+  "@appTitle": {
+    "description": "애플리케이션 제목"
+  },
+  "homePageTitle": "Flutter 데모 홈 페이지",
+  "@homePageTitle": {
+    "description": "홈 페이지 제목"
+  },
+  "counterDescription": "버튼을 누른 횟수:",
+  "@counterDescription": {
+    "description": "카운터 설명 텍스트"
+  },
+  "incrementTooltip": "증가",
+  "@incrementTooltip": {
+    "description": "증가 버튼 툴팁"
+  },
+  "settings": "설정",
+  "@settings": {
+    "description": "설정 메뉴"
+  },
+  "language": "언어",
+  "@language": {
+    "description": "언어 설정"
+  },
+  "theme": "테마",
+  "@theme": {
+    "description": "테마 설정"
+  },
+  "lightMode": "라이트 모드",
+  "@lightMode": {
+    "description": "라이트 모드"
+  },
+  "darkMode": "다크 모드",
+  "@darkMode": {
+    "description": "다크 모드"
+  },
+  "systemMode": "시스템 설정",
+  "@systemMode": {
+    "description": "시스템 설정 따라가기"
+  },
+  "korean": "한국어",
+  "@korean": {
+    "description": "한국어"
+  },
+  "english": "English",
+  "@english": {
+    "description": "영어"
+  },
+  "japanese": "日本語",
+  "@japanese": {
+    "description": "일본어"
+  },
+  "welcomeMessage": "Flutter 앱에 오신 것을 환영합니다!",
+  "@welcomeMessage": {
+    "description": "환영 메시지"
+  }
+}

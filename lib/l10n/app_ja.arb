@@ -1,0 +1,59 @@
+{
+  "@@locale": "ja",
+  "appTitle": "Flutterデモ",
+  "@appTitle": {
+    "description": "アプリケーションタイトル"
+  },
+  "homePageTitle": "Flutterデモホームページ",
+  "@homePageTitle": {
+    "description": "ホームページタイトル"
+  },
+  "counterDescription": "ボタンを押した回数:",
+  "@counterDescription": {
+    "description": "カウンター説明テキスト"
+  },
+  "incrementTooltip": "増加",
+  "@incrementTooltip": {
+    "description": "増加ボタンツールチップ"
+  },
+  "settings": "設定",
+  "@settings": {
+    "description": "設定メニュー"
+  },
+  "language": "言語",
+  "@language": {
+    "description": "言語設定"
+  },
+  "theme": "テーマ",
+  "@theme": {
+    "description": "テーマ設定"
+  },
+  "lightMode": "ライトモード",
+  "@lightMode": {
+    "description": "ライトモード"
+  },
+  "darkMode": "ダークモード",
+  "@darkMode": {
+    "description": "ダークモード"
+  },
+  "systemMode": "システム設定",
+  "@systemMode": {
+    "description": "システム設定に従う"
+  },
+  "korean": "한국어",
+  "@korean": {
+    "description": "韓国語"
+  },
+  "english": "English",
+  "@english": {
+    "description": "英語"
+  },
+  "japanese": "日本語",
+  "@japanese": {
+    "description": "日本語"
+  },
+  "welcomeMessage": "Flutterアプリへようこそ!",
+  "@welcomeMessage": {
+    "description": "ウェルカムメッセージ"
+  }
+}
