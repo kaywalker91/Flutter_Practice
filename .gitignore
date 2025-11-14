@@ -41,3 +41,182 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# ============================================
+# Enhanced Flutter .gitignore
+# ============================================
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+*.reflectable.dart
+
+# Code coverage
+coverage/
+*.lcov
+test/.test_coverage.dart
+coverage_badge.svg
+
+# Build artifacts
+**/android/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+*.keystore
+
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+*.hmap
+*.ipa
+
+# macOS
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral
+
+# Windows
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/ephemeral/
+
+# Linux
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/ephemeral/
+
+# Web
+**/web/flutter_service_worker.js
+
+# Firebase
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+**/ios/firebase_app_id_file.json
+**/lib/firebase_options.dart
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+secrets.json
+api_keys.dart
+credentials.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.realm
+*.hive
+*.isar
+
+# Editor/IDE specific
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+*.code-workspace
+
+# Package managers
+node_modules/
+.packages
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Crash logs
+*.crash
+*.log
+
+# Localization code generation (keep ARB files, ignore generated)
+# lib/l10n/*.dart (if you want to ignore generated files)
+# Keep: lib/l10n/*.arb
+
+# FVM (Flutter Version Management)
+.fvm/flutter_sdk
+.fvm/fvm_config.json
+
+# Melos (monorepo tool)
+.melos_tool/
+melos_*.yaml
+!melos.yaml
+
+# Test related
+.test_coverage.dart
+**/test/mocks/
+test_driver/
+
+# Documentation generation
+doc/api/
+.dartdoc/
+
+# Screenshots (optional - uncomment if you don't want to version screenshots)
+# screenshots/
+# assets/screenshots/
+
+# Large binary files (optional)
+# *.apk
+# *.aab
+# *.ipa
+
+# IDEs
+**/nbproject/
+**/nbbuild/
+**/nb-configuration.xml
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
