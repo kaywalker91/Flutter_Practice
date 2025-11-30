@@ -41,13 +41,13 @@ dependencies:
   flutter_screenutil: ^5.9.3
 
   # Internationalization (pinned by flutter_localizations)
-  intl: ^0.18.1
+  intl: ^0.20.2
 
   # State management
   flutter_riverpod: ^2.5.1
 
   # Local storage for locale persistence
-  shared_preferences: ^2.2.3
+  shared_preferences: ^2.5.0
 
 dev_dependencies:
   flutter_test:

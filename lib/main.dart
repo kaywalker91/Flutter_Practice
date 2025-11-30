@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:untitled1/l10n/app_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -170,7 +170,7 @@ class MyApp extends ConsumerWidget {
         labelMedium: AppTextStyles.labelMedium,
         labelSmall: AppTextStyles.labelSmall,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: AppSizes.cardElevation,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AppSizes.radiusMD),
@@ -223,13 +223,11 @@ class MyApp extends ConsumerWidget {
         onPrimary: AppColors.textPrimaryDark,
         secondary: AppColors.secondaryDarkMode,
         onSecondary: AppColors.textPrimaryDark,
-        surface: AppColors.surfaceDark,
+        surface: AppColors.backgroundDark,
         onSurface: AppColors.textPrimaryDark,
-        background: AppColors.backgroundDark,
-        onBackground: AppColors.textPrimaryDark,
         error: AppColors.error,
         onError: AppColors.white,
-        surfaceVariant: AppColors.surfaceVariantDark,
+        surfaceContainerHighest: AppColors.surfaceVariantDark,
         onSurfaceVariant: AppColors.textSecondaryDark,
         outline: AppColors.borderDark,
       ),
@@ -290,7 +288,7 @@ class MyApp extends ConsumerWidget {
           color: AppColors.textPrimaryDark,
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0, // Flat design for dark mode
         color: AppColors.surfaceDark,
         shape: RoundedRectangleBorder(
