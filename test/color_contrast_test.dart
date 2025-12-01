@@ -2,7 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:untitled1/core/constants/app_colors.dart';
+import 'package:flutter_practice/core/constants/app_colors.dart';
 
 /// WCAG 2.1 색상 대비율 검증 테스트
 ///

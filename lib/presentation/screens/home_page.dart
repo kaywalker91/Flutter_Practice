@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:untitled1/l10n/app_localizations.dart';
+import 'package:flutter_practice/l10n/app_localizations.dart';
 
 import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_sizes.dart';
 import '../../core/constants/app_text_styles.dart';
 import '../../core/utils/responsive_helper.dart';
 import '../widgets/responsive_builder.dart';
+import 'animation_demo_page.dart';
 import 'responsive_demo_page.dart';
 import 'settings_page.dart';
 
@@ -96,8 +97,10 @@ class _HomePageState extends State<HomePage> {
 
               SizedBox(height: AppSizes.spaceLG),
 
-              // Demo button (NEW)
+              // Demo buttons (NEW)
               _buildDemoButton(context),
+              SizedBox(height: AppSizes.spaceMD),
+              _buildAnimationDemoButton(context),
 
               // Bottom padding for scroll comfort
               SizedBox(height: AppSizes.spaceMD),
@@ -153,8 +156,10 @@ class _HomePageState extends State<HomePage> {
 
                   SizedBox(height: AppSizes.spaceLG),
 
-                  // Demo button (NEW)
+                  // Demo buttons (NEW)
                   _buildDemoButton(context),
+                  SizedBox(height: AppSizes.spaceMD),
+                  _buildAnimationDemoButton(context),
 
                   // Bottom padding for scroll comfort
                   SizedBox(height: AppSizes.spaceMD),
@@ -328,6 +333,29 @@ class _HomePageState extends State<HomePage> {
         label: const Text('View Responsive UI Demo'),
         style: ElevatedButton.styleFrom(
           backgroundColor: AppColors.primary,
+          foregroundColor: Colors.white,
+        ),
+      ),
+    );
+  }
+
+  /// Animation demo button
+  Widget _buildAnimationDemoButton(BuildContext context) {
+    return SizedBox(
+      width: double.infinity,
+      child: ElevatedButton.icon(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const AnimationDemoPage(),
+            ),
+          );
+        },
+        icon: Icon(Icons.animation, size: AppSizes.iconSM),
+        label: const Text('View Animation Showcase'),
+        style: ElevatedButton.styleFrom(
+          backgroundColor: AppColors.secondary,
           foregroundColor: Colors.white,
         ),
       ),

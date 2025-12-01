@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:untitled1/l10n/app_localizations.dart';
+import 'package:flutter_practice/l10n/app_localizations.dart';
 
-import 'package:untitled1/presentation/screens/home_page.dart';
+import 'package:flutter_practice/presentation/screens/home_page.dart';
 
 /// Comprehensive responsive tests for HomePage
 ///
